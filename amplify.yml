@@ -9,11 +9,11 @@ frontend:
   phases:
     preBuild:
       commands:
-        - 'yarn install --frozen-lockfile'
+        - 'npm install --frozen-lockfile'
 
     build:
       commands:
-        - 'yarn run build'
+        - 'npm run build'
   artifacts:
     baseDirectory: dist/amplify-angular-template/browser
     files:
